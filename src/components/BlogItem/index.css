@@ -1,0 +1,21 @@
+/* Write your CSS code here */
+
+.blogs-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid #616e7c;
+  padding: 1rem;
+  align-items: baseline;
+  list-style: none;
+}
+
+.title {
+  color: #12022f;
+  font-size: 1.2rem;
+}
+
+.description,
+.published-date {
+  color: #9aa5b1;
+}
